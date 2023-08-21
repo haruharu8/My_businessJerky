@@ -30,7 +30,50 @@ nav .btn{
     width: 150px;
 }
 
-section p {
-    display: inline-block;
-    width: calc(100%-170px);
+section  {
+    display: flex;
+    align-items: center;
+}
+
+
+#treePara {
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+#treePara2 {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+
+.profile-pic {
+    display: flex;
+    align-items: left;
+    margin: 20px;
+}
+
+.lorem1 {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.fordCars {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.car-images {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+.car-images img {
+    max-width: 300px; 
+    height: auto; 
 }
